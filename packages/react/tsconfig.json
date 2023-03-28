@@ -1,0 +1,4 @@
+{
+ "extends": "@airs-ui/ts-config/react.json",
+ "include": ["src"],
+}
