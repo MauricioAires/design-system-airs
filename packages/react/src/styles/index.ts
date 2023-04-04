@@ -9,6 +9,12 @@ import {
 } from '@airs-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
+/**
+ * NOTE: Utilizado para realizar a inferência de variantes de um
+ * componente
+ */
+export type { VariantProps } from '@stitches/react'
+
 export const {
   styled,
   css,

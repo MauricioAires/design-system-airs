@@ -1,4 +1,4 @@
-import { styled } from './styles'
+import { styled, VariantProps } from './styles'
 
 export const Button = styled('button', {
   fontFamily: '$default',
@@ -24,3 +24,5 @@ export const Button = styled('button', {
     size: 'small',
   },
 })
+
+export type ButtonProps = VariantProps<typeof Button>
