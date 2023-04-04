@@ -26,6 +26,9 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@airs-ui/react": "*",
+    "@airs-ui/tokens": "*",
+    "@airs-ui/eslint-config": "*"
   }
 }
