@@ -17,7 +17,7 @@
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-interactions": "^6.5.16",
     "@storybook/addon-links": "^6.5.16",
-    "@storybook/builder-vite": "^0.4.2",
+    "@storybook/builder-vite": "^0.3.0",
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
     "@vitejs/plugin-react": "^3.1.0",
@@ -25,10 +25,11 @@
     "vite": "^4.2.1"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@airs-ui/eslint-config": "*",
     "@airs-ui/react": "*",
     "@airs-ui/tokens": "*",
-    "@airs-ui/eslint-config": "*"
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
