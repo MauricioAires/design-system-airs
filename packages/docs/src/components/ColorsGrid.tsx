@@ -1,4 +1,3 @@
-import React from 'react'
 import { colors } from '@airs-ui/tokens'
 import { getContrast } from 'polished'
 

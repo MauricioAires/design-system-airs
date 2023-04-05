@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@airs-ui/eslint-config": "*",
+    "@airs-ui/ts-config": "*",
     "@airs-ui/react": "*",
     "@airs-ui/tokens": "*",
     "polished": "^4.2.2",
