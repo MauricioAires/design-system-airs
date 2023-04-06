@@ -1,6 +1,6 @@
 {
   "name": "@airs-ui/eslint-config",
-  "private": "true",
+  "private": true,
   "license": "MIT",
   "main": "index.js",
   "devDependencies": {
