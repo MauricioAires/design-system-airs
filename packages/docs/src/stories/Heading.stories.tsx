@@ -17,4 +17,12 @@ export const CustomTage: StoryObj<HeadingProps> = {
     children: 'H1 Heading',
     size: 'lg',
   },
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'Por padrão, o componente `Heading` sempre será um `h2`, mas podemos alterar isso com a propriedade `as`.',
+      },
+    },
+  },
 }
