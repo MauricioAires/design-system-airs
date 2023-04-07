@@ -1,3 +1,4 @@
+import { ElementType } from 'react'
 import { styled, VariantProps } from '../styles'
 
 export const Box = styled('div', {
@@ -7,4 +8,6 @@ export const Box = styled('div', {
   border: '1px solid $gray600',
 })
 
-export interface BoxProps extends VariantProps<typeof Box> {}
+export interface BoxProps extends VariantProps<typeof Box> {
+  as?: ElementType
+}
