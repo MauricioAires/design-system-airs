@@ -1,5 +1,5 @@
-import { ElementType, ReactNode } from 'react'
-import { styled, VariantProps } from '../styles'
+import { ComponentProps, ElementType } from 'react'
+import { styled } from '../styles'
 
 export const Text = styled('p', {
   fontFamily: '$default',
@@ -55,7 +55,6 @@ export const Text = styled('p', {
   },
 })
 
-export interface TextProps extends VariantProps<typeof Text> {
+export interface TextProps extends ComponentProps<typeof Text> {
   as?: ElementType
-  children: ReactNode
 }
