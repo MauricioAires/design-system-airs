@@ -8,12 +8,20 @@ export default {
     src: 'https://github.com/MauricioAires.png',
     alt: 'Mauricio Aires',
   },
+  argTypes: {
+    src: {
+      description: 'Avatar src',
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
 
 export const WithFallback: StoryObj<AvatarProps> = {
   args: {
-    src: undefined,
+    src: '',
   },
 }
