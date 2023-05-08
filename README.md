@@ -23,6 +23,16 @@ https://www.npmjs.com/package/@airs-ui/docs
 
 Para utilizar o remote caching da vercel para melhorar a performance e o tempo de build do design system [https://vercel.com/doc](https://vercel.com/docs/concepts/monorepos/remote-caching)
 
+
+### Changesets
+
+[Documentation](https://github.com/changesets/changesets)
+
+É um gerenciador de versionamento de repositórios
+
+Também foi utilizado um workflow para a automatização do gerenciamento da versão do repositório modificado e a publicação no NPM.
+
+
 ### Vercel Accesstoken
 
 [https://vercel.com/account/tokens](https://vercel.com/account/tokens)
