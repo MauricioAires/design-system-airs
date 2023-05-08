@@ -16,3 +16,14 @@ npm i react react-dom
 
 1. Server para executar scripts em vários repositórios ao mesmo tempo
 2. Acelerar o processo de build
+
+
+### Github Workflow
+
+Para que o workflow de deploy funcione corretamente e necessário habilitar essa permissão:
+
+URL atual <https://github.com/USERNAME/REPOSITORY/settings/actions>
+
+
+<img src="./.github/assets/settings_actions.png">
+
