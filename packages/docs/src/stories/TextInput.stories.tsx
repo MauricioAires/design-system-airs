@@ -4,6 +4,15 @@ import { Box, Text, TextInput, TextInputProps } from '@airs-ui/react'
 export default {
   title: 'Form/TextInput',
   component: TextInput,
+  argTypes: {
+    size: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'select',
+      },
+      defaultValue: 'md',
+    },
+  },
   args: {},
   decorators: [
     (Story) => {
@@ -41,6 +50,18 @@ export const Disabled: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
     disabled: true,
+    placeholder: 'Type your name',
+  },
+}
+export const Medium: StoryObj<TextInputProps> = {
+  args: {
+    size: 'md',
+    placeholder: 'Type your name',
+  },
+}
+export const Small: StoryObj<TextInputProps> = {
+  args: {
+    size: 'sm',
     placeholder: 'Type your name',
   },
 }
