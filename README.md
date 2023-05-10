@@ -45,3 +45,13 @@ Também foi utilizado um workflow para a automatização do gerenciamento da ver
 > Repository secrets
   TURBO_TOKEN =  Vercel Accesstoken
   TURBO_TEAM =  Vercel username/teamname
+
+
+
+  ### Fluxo de deploy
+
+1.  Realiazar modificações
+2. npm run changeset (gerar o arquivo de documentação com as modificações)
+3. npm run version-packages (atualizar o package com a versão do changeset)
+4. subir as modificações para o github, depois disso o github irá cuidar de atualizar o
+githubpages e atualizar o pacote no npm
