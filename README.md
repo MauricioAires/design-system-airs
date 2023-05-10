@@ -50,8 +50,7 @@ Também foi utilizado um workflow para a automatização do gerenciamento da ver
 
   ### Fluxo de deploy
 
-1.  Realiazar modificações
-2. npm run changeset (gerar o arquivo de documentação com as modificações)
-3. npm run version-packages (atualizar o package com a versão do changeset)
-4. subir as modificações para o github, depois disso o github irá cuidar de atualizar o
-githubpages e atualizar o pacote no npm
+1. Realizar as modificações necessárias no código.
+2. Executar o comando `npm run changeset` para gerar o arquivo de documentação com as modificações.
+3. Executar o comando `npm run version-packages` para atualizar o pacote com a versão do changeset.
+4. Subir as modificações para o Github. Depois disso, o Github irá cuidar de atualizar o Github Pages e o pacote no npm automaticamente.
