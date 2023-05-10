@@ -1,5 +1,11 @@
 # @airs-ui/tokens
 
+## 2.3.0
+
+### Minor Changes
+
+- add some fixes to future projects
+
 ## 2.2.0
 
 ### Minor Changes
