@@ -1,11 +1,14 @@
-<h1 align="center">
-    <img src="./.github/assets/cover.png">
-</h1>
+![cover](./.github/assets/cover.png)
 
+### 🎉 Sobre o projeto
+
+Designer System da Airs UI.
+
+O Designer System da Airs UI é uma aplicação desenvolvida com as melhores práticas e fluxo de desenvolvimento performático, utilizando as mais avançadas tecnologias. O objetivo é oferecer uma solução completa para o desenvolvimento de design systems de alta qualidade.
 
 ---
 
-### Tecnologias
+### 🛠️ Tecnologias
 
 - [Typescript](https://www.typescriptlang.org/)
 - [Phosphor Icons](https://phosphoricons.com/)
@@ -25,7 +28,7 @@ Além disso, o `Turbo Build` também foi utilizado para aplicar o conceito de ["
 
 Essas abordagens ajudam a reduzir o tempo necessário para construir e implantar a aplicação, melhorando a produtividade dos desenvolvedores e proporcionando uma experiência mais ágil no ciclo de desenvolvimento.
 
-### Instalação
+### 🔧 Instalação
 
 1. Clone este repositório em sua máquina local:
 
@@ -39,7 +42,7 @@ $ git clone https://github.com/MauricioAires/design-system-airs
   $ npm install
 ```
 
-### Utilização
+### ⚙️ Utilização
 
 Para rodar a aplicação em modo de desenvolvimento, utilize o seguinte comando:
 
@@ -47,7 +50,7 @@ Para rodar a aplicação em modo de desenvolvimento, utilize o seguinte comando:
   $ npm run dev
 ```
 
-### Fluxo de deploy
+### 🚀 Fluxo de deploy
 
 1. Realize as modificações necessárias no código.
 2. Execute o comando `npm run changeset` para gerar o arquivo de documentação com as modificações.
@@ -56,7 +59,7 @@ Para rodar a aplicação em modo de desenvolvimento, utilize o seguinte comando:
 
 Esses passos garantem um fluxo de trabalho suave e automatizado, permitindo que as modificações sejam refletidas corretamente no GitHub Pages e no pacote npm.
 
-### Github Workflow
+### 🚀 Github Workflow
 
 Para que o workflow de deploy para o GitHub Pages funcione corretamente, é necessário habilitar a permissão adequada. Siga os passos abaixo:
 
@@ -70,11 +73,11 @@ Para que o workflow de deploy para o GitHub Pages funcione corretamente, é nece
 
 Após seguir esses passos e habilitar as permissões necessárias, o workflow de deploy para o GitHub Pages poderá ser executado com sucesso.
 
-### NPM package
+### 📦 NPM package
 
 Confira o deploy do Designer System publicado no NPM: [https://www.npmjs.com/package/@airs-ui/docs](https://www.npmjs.com/package/@airs-ui/docs)
 
-### Github Workflow Repository Secrets
+### 🔒 Github Workflow Repository Secrets
 
 Os workflows de deploy e release utilizam algumas secrets que precisam ser configuradas no GitHub. Siga os passos abaixo para acessar as configurações de secrets:
 
@@ -92,17 +95,17 @@ Os workflows de deploy e release utilizam algumas secrets que precisam ser confi
 
 Ao configurar as secrets necessárias, os workflows de deploy e release poderão ser executados corretamente, utilizando as informações protegidas e configuradas nas secrets.
 
-### Contribuição
+### 🤝 Contribuição
 
 Contribuições são bem-vindas! Para contribuir, basta abrir uma issue ou pull request neste repositório.
 
-### Licença
+### 📝 Licença
 
 Este projeto está sob a licença MIT.
 Veja [LICENSE](LICENSE) para mais informações.
 
 ---
 
-### Autor
+### 👨‍💻 Autor
 
 Feito com 💙 by Mauricio Aires
