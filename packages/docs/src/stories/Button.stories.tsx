@@ -21,7 +21,7 @@ export default {
       control: {
         type: 'inline-radio',
       },
-      defaultValue: 'primary',
+      defaultValue: 'sm',
     },
     disabled: {
       control: {
