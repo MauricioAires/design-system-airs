@@ -1,0 +1,2 @@
+import{A as r}from"./index-7d1cbd1b.js";import"./index-e53eb409.js";import"./iframe-708c879c.js";import"./index-1f04f1c9.js";import"./jsx-runtime-1d8b8f02.js";const c={title:"Data Display/Avatar",component:r,args:{src:"https://github.com/MauricioAires.png",alt:"Mauricio Aires"},argTypes:{src:{description:"Avatar src",control:{type:"text"}}}},p={},e={args:{src:""}},m=["Primary","WithFallback"];export{p as Primary,e as WithFallback,m as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories-4644ac8f.js.map
