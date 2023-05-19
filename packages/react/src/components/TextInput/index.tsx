@@ -2,9 +2,9 @@ import { ComponentProps, ElementRef, forwardRef } from 'react'
 import * as S from './styles'
 
 export interface TextInputProps
-  extends Omit<ComponentProps<typeof S.Input>, 'size'>,
-    Pick<ComponentProps<typeof S.TextInputContainer>, 'size'> {
+  extends Omit<ComponentProps<typeof S.Input>, 'size'> {
   prefix?: string
+  size?: ComponentProps<typeof S.TextInputContainer>['size']
 }
 
 export const TextInput = forwardRef<ElementRef<typeof S.Input>, TextInputProps>(
